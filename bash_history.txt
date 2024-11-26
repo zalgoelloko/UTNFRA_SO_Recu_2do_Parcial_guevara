@@ -1,0 +1,568 @@
+    1  sudo apt install git
+    2  sudo apt update
+    3  sudo apt install software-properties-common
+    4  sudo add-apt-repository --yes --update ppa:ansible/ansible
+    5  sudo apt install ansible
+    6  # Add Docker's official GPG key:
+    7  sudo apt-get update
+    8  sudo apt-get install ca-certificates curl
+    9  sudo install -m 0755 -d /etc/apt/keyrings
+   10  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+   11  sudo chmod a+r /etc/apt/keyrings/docker.asc
+   12  # Add the repository to Apt sources:
+   13  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+   14    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   15  sudo apt-get update
+   16  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   17  sudo docker run hello-world
+   18  sudo usermod -aG docker ng 
+   19  ls
+   20  cd
+   21  git clone
+   22  https://github.com/sofiasartori/UTN-FRA_SO_Examenes.git
+   23  ls
+   24  cd
+   25  git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes.git
+   26  ls
+   27  ./UTN-FRA_SO_Examenes/202411/script_Precondicion.sh
+   28  source ~/.bashrc
+   29  git clone https://github.com/zalgoelloko/UTNFRA_SO_Recu_2do_Parcial_guevara.git
+   30  ls
+   31  cd RTA_Examen_20241124/
+   32  LS
+   33  ls
+   34  cd
+   35  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+   36  ls
+   37  cd
+   38  sudo cp -r RTA_Examen_20241124 UTNFRA_SO_Recu_2do_Parcial_guevara
+   39  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+   40  ls
+   41  git add .
+   42  git status 
+   43  git commit -m "ADD:Inicie el parcial recuperatorio."
+   44  git config --global user.name zalgoelloko
+   45  git config --global user.email niko_geniall@hotmail.com
+   46  git commit -m "ADD:Inicie el parcial recuperatorio."
+   47  git push origin Ayso
+   48  sudo systemctl status docker
+   49  ls
+   50  cd
+   51  cd /usr/local/bin/ng
+   52  cd /usr/local/bin/guevara
+   53  cd /usr/local/bin/
+   54  ls
+   55  ll
+   56  sudo vim guevara_clasif_animales.sh
+   57  ls
+   58  cd
+   59  ls
+   60  sudo rm -r UTN-FRA_SO_Examenes
+   61  ls
+   62  git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes.git
+   63  ls
+   64  cd UTN-FRA_SO_Examenes/
+   65  ls
+   66  cd
+   67  cd /usr/local/bin/
+   68  ll
+   69  sudo vim guevara_clasif_animales.sh
+   70  ll
+   71  ls
+   72  sudo apt install tree
+   73  ls
+   74  sudo chmod +x guevara_clasif_animales.sh 
+   75  cd
+   76  ls
+   77  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+   78  LS
+   79  ls
+   80  cd
+   81  cd UTN-FRA_SO_Examenes/
+   82  ls
+   83  cd
+   84  cd UTN-FRA_SO_Examenes/
+   85  ls
+   86  sudo cp -r 202411 UTNFRA_SO_Recu_2do_Parcial_guevara
+   87  cd
+   88  ls
+   89  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+   90  LS
+   91  ls
+   92  cd
+   93  ls
+   94  cd UTN-FRA_SO_Examenes/
+   95  ls
+   96  sudo rm -r UTNFRA_SO_Recu_2do_Parcial_guevara/
+   97  ls
+   98  sudo cp -r UTNFRA_SO_Recu_2do_Parcial_guevara 202411
+   99  cd
+  100  sudo cp -r UTNFRA_SO_Recu_2do_Parcial_guevara 202411
+  101  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  102  ls
+  103  cd
+  104  cd UTN-FRA_SO_Examenes/
+  105  ls
+  106  cd
+  107  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  108  ls
+  109  cd
+  110  ls
+  111  sudo cp -r 202411/
+  112  LS
+  113  ls
+  114  sudo rm -r 202411/
+  115  ls
+  116  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  117  ls
+  118  sudo cp -r UTNFRA_SO_Recu_2do_Parcial_guevara 202411
+  119  ls
+  120  cd
+  121  ls
+  122  sudo cp -r UTN-FRA_SO_Examenes/202411 UTNFRA_SO_Recu_2do_Parcial_guevara
+  123  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  124  ls
+  125  cd
+  126  sudo /usr/local/bin/guevara_clasif_animales.sh /home/guevara/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  127  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  128  ls
+  129  cd 202411/
+  130  ls
+  131  sudo vim script_Precondicion.sh 
+  132  cd
+  133  tree /home/guevara/UTNFRA_SO_Recu_2do_Parcial_guevara
+  134  tree /home/guevara/UTNFRA_SO_Recu_2do_Parcial_guevara/202411
+  135  sudo tree /home/guevara/UTNFRA_SO_Recu_2do_Parcial_guevara/202411
+  136  tree /home/guevara/UTNFRA_SO_Recu_2do_Parcial_guevara
+  137  pwd
+  138  sudo tree /home/guevara/UTNFRA_SO_Recu_2do_Parcial_guevara
+  139  sudo tree UTNFRA_SO_Recu_2do_Parcial_guevara
+  140  cd usr/local/bin/
+  141  cd
+  142  cd usr/local/bin/
+  143  cd usr/local/bin
+  144  cd usr/local/bin/Guevara
+  145  cd usr/local/bin/guevara
+  146  cd /usr/local/bin
+  147  ls
+  148  sudo vim guevara_clasif_animales.sh 
+  149  cd
+  150  sudo /usr/local/bin/guevara_clasif_animales.sh /home/guevara/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  151  cd
+  152  sudo tree UTNFRA_SO_Recu_2do_Parcial_guevara
+  153  sudo tree UTN-FRA_SO_Examenes/
+  154  cd
+  155  sudo tree UTNFRA_SO_Recu_2do_Parcial_guevara
+  156  cat var/animales.txt
+  157  sudo cat var/animales.txt
+  158  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  159  sudo cat var/animales.txt
+  160  cd
+  161  cd /usr/local/bin
+  162  ls
+  163  sudo vim guevara_clasif_animales.sh 
+  164  cd
+  165  sudo /usr/local/bin/guevara_clasif_animales.sh /home/guevara/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  166  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  167  LS
+  168  ls
+  169  cd 202411/
+  170  ls
+  171  cd bash_script/
+  172  ls
+  173  cat Lista_Animales.txt 
+  174  cd ..
+  175  ls
+  176  cd ..
+  177  ls
+  178  tree 202411/
+  179  cd 202411/
+  180  ls
+  181  cd
+  182  cd /usr/local/bin
+  183  sudo vim guevara_clasif_animales.sh 
+  184  cd
+  185  cd /usr/local/bin
+  186  sudo vim guevara_clasif_animales.sh 
+  187  cd
+  188  cd UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/
+  189  ls
+  190  cd
+  191  ls
+  192  pwd
+  193  cd /usr/local/bin
+  194  sudo vim guevara_clasif_animales.sh 
+  195  sudo /usr/local/bin/guevara_clasif_animales.sh /home/guevara/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  196  sudo /usr/local/bin/guevara_clasif_animales.sh /home/ng/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  197  cd
+  198  ls
+  199  tree UTNFRA_SO_Recu_2do_Parcial_guevara/
+  200  tree UTN-FRA_SO_Examenes/
+  201  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  202  ls
+  203  cd 202411/
+  204  ls
+  205  cd bash_script/
+  206  ls
+  207  cd ..
+  208  sudo vim script_Precondicion.sh 
+  209  cd
+  210  grep "León" /tmp/Animales/Tierra/Mamiferos/*.txt
+  211  ls -la /tmp/Animales
+  212  cd /tmp/Animales/
+  213  ls
+  214  cd Agua/
+  215  ls
+  216  ll
+  217  cd ..
+  218  cd Tierra/
+  219  ls
+  220  cd Mamiferos/
+  221  ls
+  222  ll
+  223  cd
+  224  tree /tmp/Animales/
+  225  cd
+  226  cd /usr/local/bin
+  227  ls
+  228  sudo vim guevara_clasif_animales.sh 
+  229  cd
+  230  ls -ld /tmp/Animales
+  231  ls -ld /tmp/Animales/Tierra
+  232  /tmp/Animales
+  233  ps aux | grep /tmp/Animales
+  234  kill 13257
+  235  sudo kill 13257
+  236  cd
+  237  cd /usr/local/bin
+  238  sudo vim guevara_clasif_animales.sh 
+  239  cd
+  240  tree /tmp/Animales/
+  241  cd /usr/local/bin
+  242  sudo vim guevara_clasif_animales.sh 
+  243  cd
+  244  sudo /usr/local/bin/guevara_clasif_animales.sh /home/ng/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  245  tree /tmp/Animales/
+  246  cd /usr/local/bin
+  247  sudo vim guevara_clasif_animales.sh 
+  248  sudo nano /home/ng/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  249  cd
+  250  sudo /usr/local/bin/guevara_clasif_animales.sh "/home/ng/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt"
+  251  sudo /usr/local/bin/guevara_clasif_animales.sh /UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  252  tree /tmp/Animales/
+  253  sudo /usr/local/bin/guevara_clasif_animales.sh /home/ng/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  254  sudo /usr/local/bin/guevara_clasif_animales.sh "/home/ng/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt"
+  255  cd /usr/local/bin
+  256  ls
+  257  cd
+  258  cd /usr/local/bin
+  259  ./guevara_clasif_animales.sh 
+  260  tree /tmp/Animales/
+  261  ls
+  262  sudo tree /tmp/Animales/
+  263  cd /usr/local/bin
+  264  ls
+  265  sudo vim guevara_clasif_animales.sh 
+  266  sudo ./guevara_clasif_animales.sh "/home/ng/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt"
+  267  sudo tree /tmp/Animales/
+  268  sudo vim guevara_clasif_animales.sh 
+  269  sudo ./guevara_clasif_animales.sh /home/ng/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  270  sudo tree /tmp/Animales/
+  271  sudo vim guevara_clasif_animales.sh 
+  272  sudo ./guevara_clasif_animales.sh /home/ng/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  273  sudo vim guevara_clasif_animales.sh 
+  274  ls
+  275  sudo vim guevara_clasif_animales.sh 
+  276  ./guevara_clasif_animales.sh /home/ng/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  277  sudo tree /tmp/Animales/
+  278  sudo ./guevara_clasif_animales.sh /home/ng/UTNFRA_SO_Recu_2do_Parcial_guevara/202411/bash_script/Lista_Animales.txt
+  279  sudo tree /tmp/Animales/
+  280  cd
+  281  cd UTNFRA_SO_Recu_2do_Parcial_guevara
+  282  ls
+  283  cd RTA_Examen_20241124/
+  284  ls
+  285  sudo vim Punto_B.sh 
+  286  cd
+  287  cd /tmp/Animales/
+  288  ls
+  289  cd Tierra/
+  290  ls
+  291  cd Mamiferos/
+  292  ls
+  293  cat Gato.txt 
+  294  cd
+  295  cd UTNFRA_SO_Recu_2do_Parcial_guevara/RTA_Examen_20241124/
+  296  ls
+  297  vim Punto_B.sh 
+  298  sudo vim Punto_B.sh 
+  299  cd ..
+  300  ls
+  301  git status
+  302  git add.
+  303  git status
+  304  git add .
+  305  git commit -m "ADD: realize el punto B del parcial."
+  306  git push origin Ayso
+  307  ls
+  308  cd 202411/
+  309  ls
+  310  cd docker/
+  311  ls
+  312  cd web/
+  313  ls
+  314  cat index.html 
+  315  sudo vim index.html 
+  316  cd ..
+  317  ls
+  318  sudo vim dockerfile
+  319  ls
+  320  sudo vim dockerfile 
+  321  docker build -t zalgoelloko/web2-guevara:latest .
+  322  docker run -d -p 80:80 zalgoelloko/web2-guevara
+  323  docker ps
+  324  curl localhost:80
+  325  ls
+  326  cd web/file/
+  327  ls
+  328  cat info.txt 
+  329  id ng
+  330  cd
+  331  id ng
+  332  sudo id ng
+  333  grep ng/etc/passwd
+  334  docker ps
+  335  docker run -d -p 80:80 zalgoelloko/web2-guevara
+  336  docker ps
+  337  curl localhost:80
+  338  id
+  339  whoami
+  340  cat /etc/passwd
+  341  cat /etc/shadow
+  342  sudo cat /etc/shadow
+  343  sudo grep ng /etc/shadow
+  344  whoami
+  345  id
+  346  sudo grep ng /etc/shadow
+  347  sudo grep ng /etc/shadow awk -f ':' '{print$2}'
+  348  sudo grep ng /etc/shadow | awk -f ':' '{print$2}'
+  349  id | grep uid
+  350  id | grep uid | awf -F '=' '{print$2}'
+  351  id | grep uid | awk -F '=' '{print$2}'
+  352  id | grep -oP 'uid=\K\d+'
+  353  grep "uid" id | awf -F '=' '{print$2}'
+  354  id | grep uid | awk -F '=' '{print$2}'
+  355  id | grep uid | awk -F '=' '{print$1}'
+  356  id | grep uid | awk -F'[ =]' '{print $2}'
+  357  id | grep uid | awk -F'[=]' '{print $2}'
+  358  id | grep uid | awk -F ' =' '{print $2}'
+  359  id | grep uid | awk -F '= ' '{print $2}'
+  360  id | grep uid | awk -F '=' '{print $2}'
+  361  id | grep uid | awk -F'[=]' '{print $2}'
+  362  id | grep uid | awk -F'[ =]' '{print $2}'
+  363  id | grep uid | awk -F'[  =]' '{print $2}'
+  364  id | grep uid | awk -F'[= ]' '{print $2}'
+  365  id | grep uid | awk -F'[ =]' '{print $2+0}'
+  366  waomi
+  367  whoami
+  368  sudo grep ng /etc/shadow
+  369  sudo grep ng /etc/shadow | awk -f ':' '{print$2}'
+  370  grep ng /etc/shadow | awk -f ':' '{print$2}'
+  371  sudo grep ng /etc/shadow | awk -F ':' '{print$2}'
+  372  ls
+  373  cd UTNFRA_SO_Recu_2do_Parcial_guevara/202411/docker/web/file/
+  374  ls
+  375  cat << FIN > info.txt 
+  376  Nombre del usuario : $(whoami)
+  377  ID de tu usuario: $(id | grep uid | awk -F'[ =]' '{print $2+0}')
+  378  Hass pass de tu usuario: $(sudo grep ng /etc/shadow | awk -F ':' '{print$2}')
+  379  FIN
+  380  ls
+  381  sudo vim info.txt 
+  382  sudo cat << FIN > info.txt
+  383  Nombre de tu usuario: $(whoami)
+  384  ID de tu usuario: $(id | grep uid | awk -F'[ =]' '{print $2+0}')
+  385  Hash pass de tu usuario: $(sudo grep ng /etc/shadow | awk -F ':' '{print$2}')
+  386  FIN
+  387  sudo vim info.txt 
+  388  cat info.txt 
+  389  chmod u+w info.txt
+  390  sudo chmod u+w info.txt
+  391  sudo vim info.txt 
+  392  sudo cat << FIN > info.txt
+  393  Nombre de tu usuario: $(whoami)
+  394  ID de tu usuario: $(id | grep uid | awk -F'[ =]' '{print $2+0}')
+  395  Hash pass de tu usuario: $(sudo grep ng /etc/shadow | awk -F ':' '{print$2}')
+  396  FIN
+  397  df -h
+  398  sudo vim info.txt 
+  399  cd
+  400  docker login
+  401  docker tag zalgoelloko/web2-guevara zalgoelloko/imagen parcial:latest
+  402  docker tag zalgoelloko/web2-guevara zalgoelloko/imagen_parcial:latest
+  403  docker push zalgoelloko/imagen_parcial:latest
+  404  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  405  LS
+  406  ls
+  407  cd 202411/docker/
+  408  ls
+  409  sudo vim docker-compose.yml 
+  410  docker compose up -d 
+  411  docker-compose version
+  412  sudo apt install docker-compose
+  413  docker compose up -d 
+  414  sudo apt update
+  415  sudo apt install docker-compose
+  416  docker compose up -d 
+  417  sudo docker compose up -d 
+  418  sudo vim docker-compose.yml 
+  419  sudo docker compose up -d 
+  420  sudo vim docker-compose.yml 
+  421  docker compose up -d 
+  422  sudo vim docker-compose.yml 
+  423  docker compose up -d 
+  424  docker-compose stop
+  425  docker-compose stop zalgoelloko/web2-guevara
+  426  docker-compose stop /web2-guevara
+  427  docker-compose stop web2-guevara
+  428  docker-compose stop web2-guevara:latest
+  429  docker-compose stop zalgoelloko/web2-guevara:latest
+  430  docker compose up -d 
+  431  docker-compose stop
+  432  sudo vim docker-compose.yml 
+  433  docker compose up -d 
+  434  cd ..
+  435  ls
+  436  sudo vim RTA_Examen_20241124/
+  437  cd RTA_Examen_20241124/
+  438  ls
+  439  sudo vim Punto_C.sh 
+  440  cd ..
+  441  ls
+  442  git status
+  443  git add .
+  444  git commit -m "ADD: Realice el  punto C del parcial"
+  445  git push origin Ayso
+  446  ls
+  447  cd 202411/
+  448  ls
+  449  cd ansible/
+  450  ls
+  451  cd roles/
+  452  ls
+  453  ansible-galaxy role init Crear_Carpetas_Guevara
+  454  ls
+  455  sudo ansible-galaxy role init Crear_Carpetas_Guevara
+  456  ls
+  457  cd Crear_Carpetas_Guevara/
+  458  ls
+  459  cd tasks/
+  460  ls
+  461  cd ..
+  462  ls
+  463  cd ..
+  464  ñs
+  465  ls
+  466  cd 2PRecuperatorio/
+  467  ls
+  468  cd tasks/
+  469  ls
+  470  sudo vim main.yml 
+  471  cd ..
+  472  ls
+  473  cd ..
+  474  ls
+  475  sudo ansible-galaxy role init Cambia_Propiedad_Guevara
+  476  sudo ansible-galaxy role init Sudoers_Guevara
+  477  ls
+  478  cd ..
+  479  ls
+  480  sudo vim playbook.yml 
+  481  cd roles/
+  482  ls
+  483  cd 2PRecuperatorio/
+  484  ls
+  485  cd tasks/
+  486  ls
+  487  sudo vim main.yml 
+  488  cd ..
+  489  ls
+  490  cd ..
+  491  ls
+  492  cd Crear_Carpetas_Guevara/
+  493  ls
+  494  cd tasks/
+  495  ls
+  496  sudo vim main.yml 
+  497  ls
+  498  cd ..
+  499  ls
+  500  cd Cambia_Propiedad_Guevara/
+  501  cd tasks/
+  502  ls
+  503  sudo vim main.yml 
+  504  cd ..
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd Sudoers_Guevara/
+  509  cd tasks/
+  510  ls
+  511  sudo vim main.yml 
+  512  ls
+  513  cd ..
+  514  ls
+  515  cd 2PRecuperatorio/
+  516  cd tasks/
+  517  sudo vim main.yml 
+  518  cd ..
+  519  ls
+  520  cd Crear_Carpetas_Guevara/
+  521  cd tasks/
+  522  sudo vim main.yml 
+  523  cd ..
+  524  ls
+  525  cd Cambia_Propiedad_Guevara/
+  526  cd tasks/
+  527  sudo vim main.yml 
+  528  cd ..
+  529  ls
+  530  cd ..
+  531  ls
+  532  cd ..
+  533  ls
+  534  sudo vim playbook.yml 
+  535  cd ..
+  536  ls
+  537  cd RTA_Examen_20241124/
+  538  ls
+  539  sudo vim Punto_D.sh 
+  540  cd ..
+  541  ñs
+  542  ls
+  543  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  544  ls
+  545  git status
+  546  git add .
+  547  git commit -m "ADD:Agregue el punto D"
+  548  git push origin Ayso
+  549  cd
+  550  history -a
+  551  ll
+  552  ls
+  553  .bash_history
+  554  home/.bash_history
+  555  $HOME/.bash_history
+  556  sudo $HOME/.bash_history
+  557  ls
+  558  ll
+  559  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  560  history -a
+  561  ls
+  562  ll
+  563  sudo $HOME/.bash_history
+  564  ll
+  565  cd
+  566  ll
+  567  cd UTNFRA_SO_Recu_2do_Parcial_guevara/
+  568  history > bash_history.txt
