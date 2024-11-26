@@ -1,6 +1,5 @@
-#####################################
-#
-# Se reemplazara con datos pedidos.
-#
-#####################################
+Nombre de tu usuario: $(whoami)
+ID de tu usuario: $(id | grep uid | awk -F'[ =]' '{print $2+0}')
+Hash pass de tu usuario: $(sudo grep ng /etc/shadow | awk -F ':' '{print$2}')
+
 

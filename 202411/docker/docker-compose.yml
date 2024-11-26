@@ -2,8 +2,8 @@ version: '3'
 
 services:
     web:
-      image:  
-      ports:
-        - 
-      volumes:
-        - 
+        image: zalgoelloko/web2-guevara:latest  
+        ports: 
+            - "81:80"
+        volumes:
+            - ./web/file/:/usr/share/nginx/html/file/
