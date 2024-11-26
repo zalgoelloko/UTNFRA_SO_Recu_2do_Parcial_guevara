@@ -1,8 +1,27 @@
 ---
 # tasks file for 2PRecuperatorio
+- name: "Crear usuario Profesor"
+  user:
+    name: profesor
+    group: GProfesores
+    createhome: yes
+    state: present
 
- - name: "Rol: 2PRecuperatorio"
-   debug:
-     msg: "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+- name: "Crear usuario Alumno"
+  user:
+    name: alumno
+    group: GAlumnos
+    createhome: yes
+    state: present
+
+- name: "Crear grupo GProfesores"
+  group:
+    name: GProfesores
+    state: present
+
+- name: "Crear grupo GAlumnos"
+  group:
+    name: GAlumnos
+    state: present
 
 

@@ -4,7 +4,12 @@
   tasks:
     - include_role:
         name: 2PRecuperatorio
-    
+    - include_role:
+        name: Crear_Carpertas_Guevara
+    - include_role:
+        name: Cambia_Propiedad_Guevara
+    - include_role:
+        name: Sudoers_Guevara
     - name: "Otra tarea"
       debug:
         msg: "Despues de la ejecucion del rol"

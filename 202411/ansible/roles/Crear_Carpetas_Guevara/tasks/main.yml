@@ -1,0 +1,16 @@
+---
+# tasks file for Crear_Carpetas_Guevara
+- name: "Crear directorio UTN"
+  file:
+    path: /UTN
+    state: directory
+
+- name: "Crear directorio Alumno"
+  file:
+    path: /UTN/Alumno
+    state: directory
+
+- name: "Crear directorio Profesor"
+  file:
+    path: /UTN/Profesor
+    state: directory

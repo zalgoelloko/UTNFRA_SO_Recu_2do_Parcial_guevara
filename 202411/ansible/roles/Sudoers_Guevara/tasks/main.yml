@@ -1,0 +1,8 @@
+---
+# tasks file for Sudoers_Guevara
+- name: "Agregar GProfesores a sudoers"
+  become: yes
+  lineinfile:
+    path: /etc/sudoers/
+    state: present
+    line: '%GProfesores ALL=(ALL) NOPASSWD: ALL'
